@@ -1,0 +1,32 @@
+{
+  "name": "chili3d",
+  "version": "0.0.1",
+  "description": "This is a command-line utility to simplify the creation of 3d applications using typescript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "chili3d": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chili-3d-engine/chili3d-cli.git"
+  },
+  "keywords": [
+    "3d",
+    "chili",
+    "engine",
+    "cli"
+  ],
+  "author": "Lorincz Mate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chili-3d-engine/chili3d-cli/issues"
+  },
+  "homepage": "https://github.com/chili-3d-engine/chili3d-cli#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
